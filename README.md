@@ -17,6 +17,19 @@ The project's objective is to gather job-related information from Instahyre usin
 4. Analyze job market trends - Identify employment patterns and demands.
 5. Increase job matching efficiency - Connect candidates with suitable positions.
 
+##  <img src="https://user-images.githubusercontent.com/106439762/181935629-b3c47bd3-77fb-4431-a11c-ff8ba0942b63.gif" width="48" height="48"> **User's Manual**
+
+| Files/Folder        | Description                                                                                   |
+|---------------------|-----------------------------------------------------------------------------------------------|
+| **Phase - 1**       | Includes the following folders:                                                               |
+|                     | **Table creation:** (Creating database tables)                                                  |
+|                     | **Data Analysis:** (Analyzing data sets)                                                        |
+|                     | **Web Scraping:** (Extracting data from websites).                                              |
+| **Phase - 2**       | Includes the following folders:                                                               |
+|                     | **App Logics:** (Implementation of application logic.)                                         |
+|                     | **Data Preprocessing and Model Creation:** (Data preparation and development of machine learning models.)|
+|                     | **App:** (Final application code.)                                                              |
+
 
 ## Data Description
 
