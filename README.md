@@ -66,7 +66,7 @@ The following methodology was used to accomplish the project objectives:
 4. _Company Classification:_ Companies were classified into five classes (Class0 to Class4) based on employee count and company age using K-Means clustering. The optimal number of clusters was determined using the Elbow Method.
 
 <p align="center">
-  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/963ab2b2-0efe-462d-84ce-a27c856594aa" width="400">
+  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/963ab2b2-0efe-462d-84ce-a27c856594aa" width="500">
 </p>
 
 <h5 align=center>
@@ -88,7 +88,7 @@ The following methodology was used to accomplish the project objectives:
 
 ### 1. This webpage is designed to accept user input.
 <p align="center">
-  <img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/0d02507f-987f-40b6-b530-e908b1bfe407">
+  <img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/f71fe8fe-8c48-42cc-a6fe-9116c9e78eb6">
 </p>
 
 
@@ -96,19 +96,23 @@ The following methodology was used to accomplish the project objectives:
 ### 2. The webpage generates output based on the skills searched by the users.
 
 <p align = "center">
-<img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/1fe97a0d-e5ae-4e96-936f-bec335579119">
+<img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/fef38b12-0871-473e-9e3a-fb0b6357eedc">
 </p>
 
 
 ### 3. This webpage showcases a comprehensive list of jobs related to specific skills entered by users, along with supplementary information.
 
 <p align = "center" >
-  <img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/92e83334-888c-45de-9c2e-7eaa58014c20">
+  <img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/bf5d54d1-3cff-4a37-abce-5ef8dcc43d83">
 </p>
 
 ## A short demo video of our app (Deployed on the local host server)
 
-https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/d516df5b-5701-4d54-8a32-30623148e4f7
+
+
+https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/128a105f-8b21-4664-b706-2106456a0a21
+
+
 
 
 ## Challenges:
