@@ -36,7 +36,7 @@ CompanyID      | A key to map with company table, as one company can have multip
 
 Column Name         | Description
 --------------------|-------------------------------------------------
-Company ID          | Primary key for Company table
+CompanyID           | Primary key for Company table
 Name                | Name of the company posting the job listings
 Founded             | Founded year of the company
 Employees           | Total number of employees in the company
@@ -109,10 +109,7 @@ The following methodology was used to accomplish the project objectives:
 ## A short demo video of our app (Deployed on the local host server)
 
 
-
 https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/128a105f-8b21-4664-b706-2106456a0a21
-
-
 
 
 ## Challenges:
