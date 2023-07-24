@@ -10,11 +10,6 @@
 The project's objective is to gather job-related information from Instahyre using Python's Selenium library and organize it in a specified format. The collected data will then be converted into three separate tables: jobs, company, and details, utilizing the Pandas library. To enable user-friendly searches, a search bar will be implemented using the Flask web framework, allowing users to look up skills. The search results will display essential details, such as the most common experience level, industry, and company class where the skill is in demand, along with the number of available job opportunities. To enhance user experience, the FuzzyBuzzy library will be employed to correct any input errors made by users in the search bar.
 
 
-<p align="center">
-  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/2f1b7538-3774-4549-ac1b-0f88175979eb" width="385">
-  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/2fef555a-a30d-4511-890e-2d32f49e714e" width="400">
-</p>
-
 ## Problem Aimed to Solve:
 
 1. Automate the job search process - Save time and effort.
@@ -90,51 +85,48 @@ The following methodology was used to accomplish the project objectives:
 
 ## Results
 
-### 1. This is the webpage that will take input from users and generate output according to searched skills.
-
-<p>
-  <img src="https://drive.google.com/uc?export=download&id=1fwhxw2c6r0E55K9SPt5cZ6wCjC8GnK5h" width="1200">
+### 1. This webpage is designed to accept user input.
+<p align="center">
+  <img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/0d02507f-987f-40b6-b530-e908b1bfe407">
 </p>
 
 
-<!-- ![Sample_User_interface](https://drive.google.com/uc?export=download&id=1fwhxw2c6r0E55K9SPt5cZ6wCjC8GnK5h) -->
 
-### 3. This is the webpage that shows all the listed jobs for the particular skills with some additional information.
+### 2. The webpage generates output based on the skills searched by the users.
 
-<p>
-  <img src="https://drive.google.com/uc?export=download&id=1hOy90FuvOg4csqVpLOLrg37hgQE-1hii" width="1200">
+<p align = "center">
+<img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/1fe97a0d-e5ae-4e96-936f-bec335579119">
 </p>
-<!-- ![Sample_User_interface](https://drive.google.com/uc?export=download&id=1hOy90FuvOg4csqVpLOLrg37hgQE-1hii) -->
-   
-## Limitation
-   
-- One limitation of this project is the dependency on the structure and layout of the Instahyre website. If Instahyre changes its webpage structure or adds additional security measures, it may affect the data scraping process and require adjustments to the scraping code.
-- Another limitation of the project is that the accuracy and effectiveness of NLP in improving user input may vary depending on the complexity of the queries and the available training data. Ongoing research and improvements in NLP techniques can help enhance the accuracy and performance of user input correction.
 
-## Challenges: 
-   
-- One of the main challenges faced in this project is implementing natural language processing (NLP) techniques to improve user input. NLP is a complex field, and incorporating it to enhance user input requires in-depth research and understanding. Overcoming the challenge of integrating NLP effectively to correct user input errors can be time-consuming and technically demanding.
 
-- Another challenge which faced in this project was the initial difficulty in creating a webpage for user input after learning Flask from various sources. While Flask provided the necessary tools for web development, there was a learning curve involved in understanding its concepts and applying them effectively.
+### 3. This webpage showcases a comprehensive list of jobs related to specific skills entered by users, along with supplementary information.
 
+<p align = "center" >
+  <img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/92e83334-888c-45de-9c2e-7eaa58014c20">
+</p>
+
+## A short demo video of our app (Deployed on the local host server)
 
 https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/d516df5b-5701-4d54-8a32-30623148e4f7
 
 
+## Challenges:
+
+- Creating Webpage with the help of HTML and CSS.
+- User Input Text Processing and learning Fuzzy wuzzy.
+- Creating a backend with Flask and returning output to a webpage.
+- Understanding the different ways to deploy the model.
+
 ## References
 
 - Python Software Foundation. (2022). Python Language Reference, version 3.10. Retrieved from https://docs.python.org/3/reference/index.html
-
-- Wikipedia contributors. (2023, April 19). BeautifulSoup. In Wikipedia, The Free Encyclopedia. Retrieved 15:44, April 22, 2023, from "https://en.wikipedia.org/wiki/Beautiful_Soup_(HTML_parser)"
-
+  
+- Selenium with Python: https://selenium-python.readthedocs.io/
+  
 - Wikipedia contributors. (2023, April 13). Flask (web framework). In Wikipedia, The Free Encyclopedia. Retrieved 15:48, April 22, 2023, from "https://en.wikipedia.org/wiki/Flask_(web_framework)"
-
-- Pandas Development Team. (n.d.). pandas 1.4.5 documentation. Retrieved April 22, 2023, from "https://pandas.pydata.org/docs/"
 
 - Scikit-learn developers. (n.d.). Clustering. Retrieved April 22, 2023, from "https://scikit-learn.org/stable/modules/clustering.html"
 
 - FuzzyBuzzy. (n.d.). FuzzyBuzzy Documentation. Retrieved April 22, 2023, from "https://pypi.org/project/fuzzybuzzy/"
 
-- Microsoft Corporation. (n.d.). Power BI. Retrieved April 22, 2023, from "https://powerbi.microsoft.com/en-us/"
 
-- Selenium with Python: https://selenium-python.readthedocs.io/
