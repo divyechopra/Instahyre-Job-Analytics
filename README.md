@@ -1,9 +1,8 @@
 # Project Name: Instahyre Job Analytics
 
 <p align="center">
-  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/989db426-1fbc-48da-b19e-96f48a6a4e56" alt="WhatsApp Video 2023-07-24 at 10 15 43 AM">
+  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/4d12f489-95e8-48a9-a6fc-4fabdc60c6cd" alt="WhatsApp Video 2023-07-24 at 10 15 43 AM">
 </p>
-
 
 ## Introduction
 
@@ -67,7 +66,7 @@ The following methodology was used to accomplish the project objectives:
 4. _Company Classification:_ Companies were classified into five classes (Class0 to Class4) based on employee count and company age using K-Means clustering. The optimal number of clusters was determined using the Elbow Method.
 
 <p align="center">
-  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/43bacef2-db64-4f2a-a307-e6e5b96cdeb6" width="400">
+  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/963ab2b2-0efe-462d-84ce-a27c856594aa" width="400">
 </p>
 
 <h5 align=center>
@@ -75,7 +74,9 @@ The following methodology was used to accomplish the project objectives:
 </h5>
    
 <p align="center">
-  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/fa6b5ce2-5d9c-4db9-bc1c-ada96d473c3e" width="500" length="500">
+  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/a0208a2f-8b59-4e7c-9d4b-44156d544d79" width="500" length="500">
+
+
 </p>
  <h5 align=center>
  Scatter Plot of Clusters
