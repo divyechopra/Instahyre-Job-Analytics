@@ -1,11 +1,8 @@
-# Project Name : Instahyre Job Analytic
+# Project Name: Instahyre Job Analytics
 
 <p align="center">
   <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/989db426-1fbc-48da-b19e-96f48a6a4e56" alt="WhatsApp Video 2023-07-24 at 10 15 43 AM">
 </p>
-
-
-
 
 
 ## Introduction
@@ -41,7 +38,7 @@ Skills         | Skills required for the job
 DetailID       | A key to map with details table, as every job has some description
 CompanyID      | A key to map with company table, as one company can have multiple jobs
 
-- *Company Table:*: 
+- *Company Table:*
 
 Column Name         | Description
 --------------------|-------------------------------------------------
@@ -51,76 +48,49 @@ Founded             | Founded year of the company
 Employees           | Total number of employees in the company
 
 
-- *Details Table:*:
+- *Details Table:*
 
 Column Name           | Description
 ----------------------|--------------------------------------------------
-DetailID            | Unique identifier for each set of additional details
-Skills              | Skills or qualifications required for the job
-Involvement         | The nature of involvement in the job
-Exp                 | Year of experience needed for the job
-HR                  | Name of HR who posted the job
+DetailID              | Unique identifier for each set of additional details
+Skills                | Skills or qualifications required for the job
+Involvement           | The nature of involvement in the job
+Exp                   | Year of experience needed for the job
+HR                    | Name of HR who posted the job
+ 
 
 ## Methodology
 
 The following methodology was used to accomplish the project objectives:
 
-1. *Data Scraping:* The job data was scraped from Instahyre using the Python library BeautifulSoup. The data was scraped based on specific search criteria, such as job titles, job locations, and company names.
+1. _Data Scraping:_ Job data was obtained from Instahyre using Python's Selenium library, considering specific criteria like job titles, locations, and company names.
 
-2. *Data Transformation:* The scraped data was transformed into three tables, namely jobs, company, and details with the help of Power Query and Excel. The jobs table contained attributes such as job_id, company_id, location, designation, and details_id. The company table contained attributes such as company_id, name, industry, employees_count, and Instahyre_followers. The details table contained attributes such as details_id, involvement, level, total_applicants, and skills.
+2. _Data Conversion:_ Utilizing Pandas, the scraped data underwent transformation into three tables: jobs, company, and details.
 
-3. *Data Cleaning and Pre-processing:* The data cleaning process encompassed eliminating irrelevant data, addressing missing values, standardizing formats, removing duplicates, cleaning textual data, handling outliers, converting data types, checking for inconsistencies, normalizing categorical data, and validating data integrity.
+3. _Data Cleaning and Preparation:_ The data cleaning phase involved eliminating irrelevant data, handling missing values, standardizing formats, removing duplicates, cleaning text, managing outliers, type conversion, consistency checks, categorical data normalization, and ensuring data integrity.
 
-4. *Dashboard Creation:* A dashboard was created using Power BI to provide an interactive visualization of the data. The dashboard included various charts and graphs to display the data in an easy-to-understand format. The charts included a skill distribution chart, a company class distribution chart, and a job location chart.
-
-![Sample_User_interface](https://drive.google.com/uc?export=download&id=1PlrEg8wLSgjdHdEM70aSMQFMGwEZwTMg)
-
-5. *Feature Extraction:* The NLTK library was used to gather the required skills from the job descriptions in the details table with the help of Natural Language Processing.
-
-6. *Company Classification:* The companies were classified into four classes, namely Class1, Class2, Class3, and Class4, based on their employee count and Instahyre followers using K-Means clustering algorithm. A new column was added to the company table to represent the company class. Additionally we also evaluated it by Elbow Method and the optimum number of clusters are 4.
+4. _Company Classification:_ Companies were classified into five classes (Class0 to Class4) based on employee count and company age using K-Means clustering. The optimal number of clusters was determined using the Elbow Method.
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=download&id=1jmAdodfremotelYI3mMF0U9-w1CT63Js" width="400">
+  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/43bacef2-db64-4f2a-a307-e6e5b96cdeb6" width="400">
 </p>
 
 <h5 align=center>
-  Optimum number of cluster 
-<h5>
+  Elbow Method
+</h5>
    
 <p align="center">
-  <img src="https://drive.google.com/uc?export=download&id=1EQ-MHNLCRd2GrtK_GC1nVAeK_jD2veZk" width="400">
+  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/fa6b5ce2-5d9c-4db9-bc1c-ada96d473c3e" width="500" length="500">
 </p>
-   
  <h5 align=center>
-  3-D Scatter Plot of Clusters
- <h5>
-  
- <p>&nbsp;</p>
-
-7. *User Interface:* A search bar was created using the Flask web framework where users could search for skills. The FuzzyBuzzy library was used to correct user input errors in the search bar. Upon entering the skill, the most common experience level, industry, and company class where the skill is required, and the number of jobs available for the skill were displayed.
+ Scatter Plot of Clusters
+ </h5>
+   
+5. _User-Friendly Interface:_ A Flask web framework introduced a search bar for users to look up skills. FuzzyBuzzy library corrected any input errors. Search results displayed the most common experience level, industry, company class related to the skill, and the number of available job opportunities.
 
 ## Results
 
-### 1. Key Insights from Dashboard
-
-- Maximum No of Jobs are in Bengaluru.
-
-- Top Hiring Industries are Information and Technology, Financial, and Education.
- 
-- Top 5 States which have the most jobs are Delhi, Maharashtra, Haryana, Karnataka, and Uttar Pradesh.
-
-- Most of the Jobs are Full Time.
-
-- Large Company which are having employees count of 1000+ having 52% volume of total Jobs
-
-- When we are selecting Delhi we get to know that we have most of the jobs in Education Sector and then Information and Technology
-
-- We also get to know that Education sector has 37.29% Internships.
-
-- If we select Maharastra then we get to know that the  top industries are IT and Finance.
-
-
-### 2. This is webpage that will take input from users and generate output according to searched skills.
+### 1. This is the webpage that will take input from users and generate output according to searched skills.
 
 <p>
   <img src="https://drive.google.com/uc?export=download&id=1fwhxw2c6r0E55K9SPt5cZ6wCjC8GnK5h" width="1200">
@@ -129,7 +99,7 @@ The following methodology was used to accomplish the project objectives:
 
 <!-- ![Sample_User_interface](https://drive.google.com/uc?export=download&id=1fwhxw2c6r0E55K9SPt5cZ6wCjC8GnK5h) -->
 
-### 3. This is webpage that show all the listed jobs for the particular skills with some additional information.
+### 3. This is the webpage that shows all the listed jobs for the particular skills with some additional information.
 
 <p>
   <img src="https://drive.google.com/uc?export=download&id=1hOy90FuvOg4csqVpLOLrg37hgQE-1hii" width="1200">
