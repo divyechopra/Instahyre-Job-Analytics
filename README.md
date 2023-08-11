@@ -8,14 +8,9 @@
 
 The project's objective is to gather job-related information from Instahyre using Python's Selenium library and organize it in a specified format. The collected data will then be converted into three separate tables: jobs, company, and details, utilizing the Pandas library. To enable user-friendly searches, a search bar will be implemented using the Flask web framework, allowing users to look up skills. The search results will display essential details, such as the most common experience level, industry, and company class where the skill is in demand, along with the number of available job opportunities. To enhance user experience, the FuzzyBuzzy library will be employed to correct any input errors made by users in the search bar.
 
-
 ## Problem Aimed to Solve:
 
-1. Automate the job search process - Save time and effort.
-2. Provide comprehensive job details - Rich information for users.
-3. Enhance search query accuracy - Improve search results precision.
-4. Analyze job market trends - Identify employment patterns and demands.
-5. Increase job matching efficiency - Connect candidates with suitable positions.
+The aim of the project is to automate job data collection from Instahyre using Selenium, structure it into tables with Pandas, create a user-friendly search interface using Flask, and enhance search accuracy with FuzzyBuzzy. This will save time, provide detailed job information, improve search precision, analyze job trends, and efficiently match candidates with suitable positions.
 
 ##  <img src="https://user-images.githubusercontent.com/106439762/181935629-b3c47bd3-77fb-4431-a11c-ff8ba0942b63.gif" width="48" height="48"> **User's Manual**
 
@@ -79,7 +74,9 @@ The following methodology was used to accomplish the project objectives:
 4. _Company Classification:_ Companies were classified into five classes (Class0 to Class4) based on employee count and company age using K-Means clustering. The optimal number of clusters was determined using the Elbow Method.
 
 <p align="center">
-  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/963ab2b2-0efe-462d-84ce-a27c856594aa" width="500">
+  <img width="900" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/f9388223-d7af-4ab3-a939-9e4cf1d99f41">
+
+  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/963ab2b2-0efe-462d-84ce-a27c856594aa" width="600">
 </p>
 
 <h5 align=center>
@@ -87,6 +84,9 @@ The following methodology was used to accomplish the project objectives:
 </h5>
    
 <p align="center">
+
+  <img width="900" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/9bbf8b19-ed6f-4feb-ac25-4dfc22842507">
+
   <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/a0208a2f-8b59-4e7c-9d4b-44156d544d79" width="500" length="500">
 
 
@@ -97,21 +97,38 @@ The following methodology was used to accomplish the project objectives:
    
 5. _User-Friendly Interface:_ A Flask web framework introduced a search bar for users to look up skills. FuzzyBuzzy library corrected any input errors. Search results displayed the most common experience level, industry, company class related to the skill, and the number of available job opportunities.
 
-## Results
+## Challenges and Learnings
+
+1). Webpage with HTML/CSS:
+  - Challenge: Design a webpage using HTML/CSS.
+
+    Learning: Learn HTML structure, CSS styling.
+
+2). User Text Processing with FuzzyWuzzy:
+  - Challenge: Process user text using FuzzyWuzzy.
+
+    Learning: Understand text manipulation, fuzzy matching.
+
+3). Backend with Flask, Webpage Interaction:
+  - Challenge: Create Flask backend, connect to webpage.
+
+    Learning: Grasp Flask basics, dynamic content.
+    
+4). Model Deployment Exploration:
+  - Challenge: Explore deployment options.
+
+## Results and Conclusion
 
 ### 1. This webpage is designed to accept user input.
 <p align="center">
   <img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/f71fe8fe-8c48-42cc-a6fe-9116c9e78eb6">
 </p>
 
-
-
 ### 2. The webpage generates output based on the skills searched by the users.
 
 <p align = "center">
 <img width="800" alt="image" src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/fef38b12-0871-473e-9e3a-fb0b6357eedc">
 </p>
-
 
 ### 3. This webpage showcases a comprehensive list of jobs related to specific skills entered by users, along with supplementary information.
 
@@ -121,16 +138,7 @@ The following methodology was used to accomplish the project objectives:
 
 ## A short demo video of our app (Deployed on the local host server)
 
-
 https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/128a105f-8b21-4664-b706-2106456a0a21
-
-
-## Challenges:
-
-- Creating Webpage with the help of HTML and CSS.
-- User Input Text Processing and learning Fuzzy wuzzy.
-- Creating a backend with Flask and returning output to a webpage.
-- Understanding the different ways to deploy the model.
 
 ## References
 
@@ -138,7 +146,8 @@ https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/128a105f
   
 - Selenium with Python: https://selenium-python.readthedocs.io/
   
-- Wikipedia contributors. (2023, April 13). Flask (web framework). In Wikipedia, The Free Encyclopedia. Retrieved 15:48, April 22, 2023, from "https://en.wikipedia.org/wiki/Flask_(web_framework)"
+- Wikipedia contributors. (2023, April 13). Flask (web framework). In Wikipedia, The Free Encyclopedia. Retrieved 15:48, April 22, 2023, from 
+ "https://en.wikipedia.org/wiki/Flask_(web_framework)"
 
 - Scikit-learn developers. (n.d.). Clustering. Retrieved April 22, 2023, from "https://scikit-learn.org/stable/modules/clustering.html"
 
